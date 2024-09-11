@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "minishell",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"minishell.h": "c",
+			"lib.h": "c",
+			"stdlib.h": "c"
+		}
+	}
+}
