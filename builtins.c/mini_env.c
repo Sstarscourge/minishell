@@ -6,13 +6,13 @@
 /*   By: fidriss <fidriss@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 18:00:11 by fidriss           #+#    #+#             */
-/*   Updated: 2024/08/23 18:00:22 by fidriss          ###   ########.fr       */
+/*   Updated: 2024/09/13 10:23:32 by fidriss          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../minishell.h"
 
-int ft_env(t_list *env)
+int	ft_env(t_list *env)
 {
 	while (env)
 	{

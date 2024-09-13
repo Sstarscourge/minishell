@@ -6,13 +6,13 @@
 #    By: fidriss <fidriss@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/09 15:51:34 by fidriss           #+#    #+#              #
-#    Updated: 2024/08/26 18:00:09 by fidriss          ###   ########.fr        #
+#    Updated: 2024/09/13 11:07:26 by fidriss          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = minishell
 
-SRCS = minishell.c 
+SRCS = execution.c execution2.c handle_heredoc.c redirections.c utils.c
 OBJS = $(SRCS:.c=.o)
 
 CC = cc
